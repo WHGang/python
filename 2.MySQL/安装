@@ -1,0 +1,22 @@
+MySQL的安装我只记录下我在Ubuntu下的安装过程：
+Ubuntu下只需要三条命令就可以了，
+sudo apt-get install mysql-server
+sudo apt-get install mysql-client
+sudo apt-get install libmysqlclient-dev
+
+安装mysql的可视化界面（mysql workbench）
+sudo apt-get install mysql-workbench
+
+123
+
+
+修改mysql密码出现报错：ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corres
+https://blog.csdn.net/ArrogantT/article/details/105774248
+
+
+sudo apt-get clean
+sudo apt-get purge mysql*
+sudo apt-get update
+sudo apt-get install -f
+sudo apt-get install mysql-server-5.7
+sudo apt-get dist-upgrade

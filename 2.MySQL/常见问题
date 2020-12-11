@@ -1,0 +1,14 @@
+作者：我一肚子火
+链接：https://www.nowcoder.com/discuss/494464?type=2&channel=1009&source_id=discuss_terminal_discuss_jinghua
+来源：牛客网
+
+1.数据库的四个特性？四个隔离机制？
+2.数据库索引数据结构？各种索引失效的情况？最左匹配原则
+3.MySQL主从复制的原理？
+4.MySQL的如何保证事务
+5.MVCC底层实现
+6.MySQL和Redis的区别（各自使用的场景以及原因）
+7.Innodb和MyISAM的区别
+8.redis的数据结构？
+9.redis为什么快？ （io模型 + 基于内存 + 线程模型）
+10.一条sql语句的查询流程
