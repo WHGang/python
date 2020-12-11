@@ -3,8 +3,8 @@
 …or create a new repository on the command line
 echo "# python" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
+git add .
+git commit -m "update"
 git branch -M main
 git remote add python https://github.com/WHGang/python.git
 git push -u python main
@@ -20,7 +20,7 @@ git push -u python main
 
 
 
-
+git push -f origin master强制push
 
 
 
