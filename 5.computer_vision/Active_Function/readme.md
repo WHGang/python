@@ -9,7 +9,7 @@
 
 $$f(x) = \frac{1}{1+e^{-x}}$$
 
- <img src="./pictures/sigmoid.png" width = "300" height = "300" alt="11111" align=right />
+ <img src="./pictures/sigmoid.png" width = "300" height = "260" alt="11111" align=right />
 
 **优点：**
 1. sigmoid函数的输出映射在（0,1）之间，单调连续，输出范围有限，优化稳定。
@@ -26,7 +26,7 @@ $$f(x) = \frac{1}{1+e^{-x}}$$
 
 $$f(x) = \frac{1-e^{-2x}}{1+e^{-2x}}$$
 
- <img src="./pictures/tanh.jpeg" width = "300" height = "300" alt="11111" align=right />
+ <img src="./pictures/tanh.jpeg" width = "300" height = "260" alt="11111" align=right />
 
 **优点：**
 1. sigmoid函数的输出映射在（0,1）之间，单调连续，输出范围有限，优化稳定。
@@ -35,12 +35,18 @@ $$f(x) = \frac{1-e^{-2x}}{1+e^{-2x}}$$
 **缺点：**
 1. 幂运算，计算成本高。
 2. 导数值小于1，在两侧饱和区域容易出现梯度消失。
+3. 1
+4. 1
+5. 1
+6. 
+
+
 
 
 
 # [3] Relu
 
- <img src="./pictures/relu.png" width = "300" height = "300" alt="11111" align=right />
+ <img src="./pictures/relu.png" width = "400" height = "240" alt="11111" align=right />
 
 **优点：**
 1. 可以使网络训练更快。相比于sigmoid、tanh，导数更加好求，反向传播就是不断的更新参数的过程，因为其导数不复杂形式简单。
@@ -55,7 +61,7 @@ $$f(x) = \frac{1-e^{-2x}}{1+e^{-2x}}$$
 
 # [3] Leaky Relu
 
- <img src="./pictures/leaky.png" width = "300" height = "200" alt="11111" align=right />
+ <img src="./pictures/leaky.png" width = "390" height = "250" alt="11111" align=right />
 
 **优点：**
 1. 1
@@ -67,10 +73,9 @@ $$f(x) = \frac{1-e^{-2x}}{1+e^{-2x}}$$
 **缺点：**
 1. 1
 
-# [4] ELU (Exponential Linear Unit
-)
+# [4] ELU (Exponential Linear Unit)
 
- <img src="./pictures/ELU.png" width = "300" height = "200" alt="11111" align=right />
+ <img src="./pictures/ELU.png" width = "450" height = "250" alt="11111" align=right />
 
 **优点：**
 1. 1

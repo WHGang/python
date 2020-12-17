@@ -28,11 +28,11 @@ computational cost: $1$×$1$×M×N×  $D_F$×$D_F$
 **Depthwise separable convolutions cost:**
 $D_K$×$D_K$×M × $D_F$×$D_F$ + M×N×$D_F$×$D_F$
 
-![奋斗](./pictures/compute.png)  
+![奋斗](./pictures/compute.PNG)  
 
 
 ## Network Structure and Training
-![奋斗](./pictures/net.png)  
+![奋斗](./pictures/net.PNG)  
 
 1. Width Multiplier: Thinner Models
 
@@ -53,7 +53,7 @@ $D_K$×$D_K$×M × $D_F$×$D_F$ + M×N×$D_F$×$D_F$
 
 ## Inverted residuals
 ![奋斗](./pictures/inverted-residuals.png)  
-@ https://zhuanlan.zhihu.com/p/98874284
+@ https://zhuanlan.zhihu.com/p/98874284  
 在V2的网络设计中，我们除了继续使用深度可分离（中间那个）结构之外，还使用了Expansion layer和 Projection layer。这个projection layer也是使用 $1$×$1$ 的网络结构，他的目的是希望把高维特征映射到低维空间去。另外说一句，使用 $1$×$1$ 的网络结构将高维空间映射到低纬空间的设计有的时候我们也称之为Bottleneck layer。
 
 Expansion layer的功能正相反，使用 $1$×$1$ 的网络结构，目的是将低维空间映射到高维空间。这里Expansion有一个超参数是维度扩展几倍。可以根据实际情况来做调整的，默认值是6，也就是扩展6倍。
@@ -62,13 +62,13 @@ Expansion layer的功能正相反，使用 $1$×$1$ 的网络结构，目的是�
 
 
 ## Comparison
-![奋斗](./pictures/comparison.png)  
+![奋斗](./pictures/comparison.PNG)  
 
 
 
 ## Model Architecture
 
-![奋斗](./pictures/netv2.png)  
+![奋斗](./pictures/netv2.PNG)  
 
 
 
